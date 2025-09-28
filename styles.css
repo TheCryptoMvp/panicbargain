@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #ff4500;
+}
+
+#alternative-section, #cooldown-section, #ad-section {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+#bypass-button {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#bypass-button:hover {
+    background-color: #e63e00;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anti-Impulse Shopping Buddy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Impulse Shopping Detector</h2>
+    <p id="message">Scanning your cart...</p>
+
+    <div id="alternative-section">
+        <h3>Cheaper or Second-Hand Alternatives:</h3>
+        <ul id="alternatives-list">
+            <li>Loading suggestions...</li>
+        </ul>
+    </div>
+
+    <div id="cooldown-section">
+        <p>Impulse detected! Wait <span id="cooldown-timer">30</span> seconds before checkout.</p>
+        <button id="bypass-button" disabled>I REALLY NEED THIS</button>
+    </div>
+
+    <!-- A-ADS Advertisement -->
+    <div id="ad-section" style="width: 300px; height: 250px; margin: auto; text-align: center;">
+        <iframe data-aa="2384156"
+                src="https://acceptable.a-ads.com/2384156"
+                width="300" height="250"
+                style="border:0px; padding:0; overflow:hidden; background-color: transparent;">
+        </iframe>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
